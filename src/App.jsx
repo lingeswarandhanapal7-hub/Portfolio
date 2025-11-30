@@ -7,7 +7,7 @@ import Experiences from "./sections/Experiences";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
-import StarBackground from './components/StarBackground';
+import Interactive3DBackground from './components/Interactive3DBackground';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="relative">
-        <StarBackground />
+        <Interactive3DBackground />
         <About />
         <Projects />
         <Experiences />
@@ -28,3 +28,4 @@ const App = () => {
 };
 
 export default App;
+
